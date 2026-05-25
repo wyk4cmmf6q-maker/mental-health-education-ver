@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ストレスについて</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg-orb orb1"></div>
+  <div class="bg-orb orb2"></div>
+
+  <button class="menu-button" id="menuButton">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="side-menu" id="sideMenu">
+    <p class="menu-label">Contents</p>
+    <h2>ページ内メニュー</h2>
+    <a href="#about">ストレスとは</a>
+    <a href="#stressor">ストレッサーの種類</a>
+    <a href="#appraisal">認知的評価</a>
+    <a href="#reaction">ストレス反応</a>
+    <a href="#autonomic">自律神経との関係</a>
+    <a href="#coping">ストレスへの対処</a>
+    <a href="#message">まとめ</a>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-text fade-in">
+      <p class="eyebrow">Stress Education</p>
+      <h1>ストレスについて</h1>
+      <p class="lead">
+        ストレスのしくみを理解して、<br>
+        心と体のサインに気づけるようになるために…
+      </p>
+      <div class="hero-buttons">
+        <a href="#about">学びはじめる</a>
+        <a href="#coping" class="sub-button">対処法を見る</a>
+      </div>
+    </div>
+
+    <div class="hero-card fade-in">
+      <p class="card-title">今日のストレスチェック</p>
+      <div class="chat user">最近ちょっと疲れやすいかも…</div>
+      <div class="chat bot">それは心と体からのサインかも。まずは一緒に整理してみよう。</div>
+      <div class="mini-flow">
+        <span>出来事</span>
+        <span>受け止め方</span>
+        <span>反応</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="about" class="section-card fade-in">
+      <div class="section-number">01</div>
+      <div class="section-content">
+        <p class="section-label">What is stress?</p>
+        <h2>ストレスとは</h2>
+        <p>
+          ストレスとは、外からの刺激や出来事に対して、心や体が反応している状態のこと。
+          「ストレス＝悪いもの」と思われがちだけど、本来は危険や負荷に対応するための自然な反応でもある。
+        </p>
+        <p>
+          たとえば、テスト前に緊張したり、人間関係で不安になったり、睡眠不足でイライラしやすくなったりするのも、
+          心と体が刺激に反応している状態と考えられる。
+        </p>
+
+        <div class="process">
+          <div>
+            <strong>ストレッサー</strong>
+            <small>刺激・出来事</small>
+          </div>
+          <span>→</span>
+          <div>
+            <strong>認知・評価</strong>
+            <small>どう受け止めるか</small>
+          </div>
+          <span>→</span>
+          <div>
+            <strong>ストレス反応</strong>
+            <small>心・体・行動の変化</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stressor" class="section-card fade-in">
+      <div class="section-number">02</div>
+      <div class="section-content">
+        <p class="section-label">Stressors</p>
+        <h2>ストレッサーの種類</h2>
+        <p>
+          ストレッサーとは、ストレスの原因になる刺激や出来事のこと。
+          テスト、人間関係、部活、家庭環境、SNS、将来への不安など、人によってストレッサーはさまざま。
+        </p>
+
+        <div class="card-grid">
+          <article>
+            <span>🧠</span>
+            <h3>心理的ストレッサー</h3>
+            <p>不安、プレッシャー、劣等感、自己否定、孤独感、失敗経験、将来への不安など。</p>
+          </article>
+          <article>
+            <span>👥</span>
+            <h3>社会的ストレッサー</h3>
+            <p>いじめ、仲間外れ、親との衝突、SNS疲れ、比較されること、コミュニケーション不安など。</p>
+          </article>
+          <article>
+            <span>🏃</span>
+            <h3>身体的ストレッサー</h3>
+            <p>睡眠不足、疲労、病気、空腹、騒音、気温、スマホによる眼精疲労など。</p>
+          </article>
+          <article>
+            <span>🌍</span>
+            <h3>環境的ストレッサー</h3>
+            <p>受験、転校、引っ越し、災害、通学時間、人混み、環境の変化など。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="appraisal" class="section-card fade-in">
+      <div class="section-number">03</div>
+      <div class="section-content">
+        <p class="section-label">Cognitive appraisal</p>
+        <h2>なぜストレスの大きさが違うのか</h2>
+        <p>
+          同じ出来事でも、感じるストレスの大きさは人によって違う。
+          その理由は、出来事そのものだけでなく、「自分がそれをどう受け止めるか」が関係しているから。
+        </p>
+
+        <div class="comparison">
+          <div>
+            <h3>Aさん</h3>
+            <p>「失敗したら終わりだ」</p>
+            <strong>ストレスが大きい</strong>
+          </div>
+          <div>
+            <h3>Bさん</h3>
+            <p>「練習したから大丈夫かも」</p>
+            <strong>ストレスが小さい</strong>
+          </div>
+          <div>
+            <h3>Cさん</h3>
+            <p>「失敗しても経験になる」</p>
+            <strong>前向きに捉えやすい</strong>
+          </div>
+        </div>
+
+        <p class="highlight">
+          ストレスは、出来事そのものではなく、その出来事への「意味づけ」によって変わる。
+        </p>
+      </div>
+    </section>
+
+    <section id="reaction" class="section-card fade-in">
+      <div class="section-number">04</div>
+      <div class="section-content">
+        <p class="section-label">Stress reactions</p>
+        <h2>ストレス反応</h2>
+        <p>
+          ストレス反応とは、ストレッサーを受けたあとに、心・体・行動に現れる変化のこと。
+          これは「甘え」ではなく、心と体が負荷を知らせてくれているサイン。
+        </p>
+
+        <div class="reaction-box">
+          <div>
+            <h3>心理的反応</h3>
+            <p>不安、イライラ、落ち込み、無気力、焦り、緊張、やる気の低下など。</p>
+          </div>
+          <div>
+            <h3>身体的反応</h3>
+            <p>頭痛、腹痛、吐き気、動悸、めまい、不眠、肩こり、疲れやすさなど。</p>
+          </div>
+          <div>
+            <h3>行動的反応</h3>
+            <p>避ける、怒りっぽくなる、食べ過ぎる、SNSを見続ける、ミスが増えるなど。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="autonomic" class="section-card fade-in">
+      <div class="section-number">05</div>
+      <div class="section-content">
+        <p class="section-label">Autonomic nervous system</p>
+        <h2>自律神経とストレス</h2>
+        <p>
+          自律神経は、呼吸・心拍・消化・体温調整などを自動で整えている神経。
+          ストレスが続くと、活動モードである交感神経が優位になりやすく、心身の不調につながることがある。
+        </p>
+
+        <div class="two-column">
+          <div>
+            <h3>交感神経</h3>
+            <p>活動モード。緊張、集中、心拍上昇、体を動かす準備に関わる。</p>
+          </div>
+          <div>
+            <h3>副交感神経</h3>
+            <p>休息モード。リラックス、睡眠、消化、回復に関わる。</p>
+          </div>
+        </div>
+
+        <p class="highlight">
+          大切なのは、ストレスを完全になくすことではなく、心と体を回復させる時間をつくること。
+        </p>
+      </div>
+    </section>
+
+    <section id="coping" class="section-card fade-in">
+      <div class="section-number">06</div>
+      <div class="section-content">
+        <p class="section-label">Coping</p>
+        <h2>ストレスへの対処</h2>
+        <p>
+          ストレスへの対処を、心理学ではコーピングという。
+          原因に働きかける方法と、気持ちを落ち着かせる方法の両方を使えるようになると、ストレスと付き合いやすくなる。
+        </p>
+
+        <div class="card-grid">
+          <article>
+            <span>📝</span>
+            <h3>問題焦点型</h3>
+            <p>勉強計画を立てる、相談する、環境を変える、原因を整理するなど。</p>
+          </article>
+          <article>
+            <span>🌿</span>
+            <h3>情動焦点型</h3>
+            <p>音楽を聴く、深呼吸する、泣く、趣味をする、誰かに話すなど。</p>
+          </article>
+          <article>
+            <span>😴</span>
+            <h3>睡眠</h3>
+            <p>朝日を浴びる、夜更かしを減らす、寝る前のスマホを控えるなど。</p>
+          </article>
+          <article>
+            <span>🚶</span>
+            <h3>軽い運動</h3>
+            <p>散歩、ストレッチ、軽い筋トレなど、続けやすい運動を取り入れる。</p>
+          </article>
+          <article>
+            <span>🌬️</span>
+            <h3>呼吸法</h3>
+            <p>4秒吸って、6〜8秒かけて吐く。長く吐くことで落ち着きやすくなる。</p>
+          </article>
+          <article>
+            <span>🧘</span>
+            <h3>マインドフルネス</h3>
+            <p>今ここに注意を向け、考えすぎや不安のループから距離を取る。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="message" class="message-section fade-in">
+      <p class="section-label">Final message</p>
+      <h2>まとめ</h2>
+      <p>
+        ストレスを感じることは、弱さではない。  
+        心と体が「少し負荷がかかっているよ」と知らせてくれているサイン。
+      </p>
+      <div class="final-message">
+        受け止め方と対処の工夫で、ストレスは変えられる。
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <h2>参考資料</h2>
+    <p>
+      眠れなくなるほどおもしろい図解 ストレスの話／WHO／厚生労働省／
+      Lazarus & Folkman のストレス理論／認知行動療法／自律神経に関する資料など
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
